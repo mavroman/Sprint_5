@@ -54,10 +54,6 @@ class FelineTests {
 
     }
 
-//    @Override
-//    public List<String> eatMeat() throws Exception {
-//        return getFood("Хищник");
-//    }
     // Тесты для метода eatMeat()
     @Test
     @DisplayName("eatMeat вызывает Animal.getFood с семейством Хищник")
@@ -73,9 +69,7 @@ class FelineTests {
         }
     }
 
-//    public int getKittens() {
-//        return getKittens(1);
-//    }
+
     // Тесты для метода getKittens()
     @Test
     @DisplayName("getKittens без параметров возвращает 1")
@@ -91,10 +85,6 @@ class FelineTests {
         assertTrue(kittensCount > 0);
     }
 
-
-//    public int getKittens(int kittensCount) {
-//        return kittensCount;
-//    }
 
     // Тесты для метода getKittens() с параметром
     @Test
